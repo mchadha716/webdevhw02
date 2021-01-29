@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #294C6B;
+}
+
+.centered {
+    text-align: center;
+}
+
+.backgroundColor {
+    background-color: #A3CCF0;
+    width: 200px;
+    padding: 25px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    text-align: right;
+    margin: auto;
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tablecenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}

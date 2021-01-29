@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+	<meta charset="utf-8"/>
+	<title>calculator</title>
+        <link rel="stylesheet" href="calc.css">
+        <script src="calc.js"></script>
+    </head>
+
+    <body>      
+        <h2 class="centered">C A L C U L A T O R</h2>
+        <div class="backgroundColor">
+            <div class="box" id="display"></div>
+            <br>
+            <table class="tablecenter">
+                <tr>
+                    <td><button onclick="numberClicked('7')"> 7 </button></td>
+                    <td><button onclick="numberClicked('8')"> 8 </button></td>
+                    <td><button onclick="numberClicked('9')"> 9 </button></td>
+                    <td><button onclick="operationClicked('+ =')">+ =</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="numberClicked('4')"> 4 </button></td>
+                    <td><button onclick="numberClicked('5')"> 5 </button></td>
+                    <td><button onclick="numberClicked('6')"> 6 </button></td>
+                    <td><button onclick="operationClicked('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="numberClicked('1')"> 1 </button></td>
+                    <td><button onclick="numberClicked('2')"> 2 </button></td>
+                    <td><button onclick="numberClicked('3')"> 3 </button></td>
+                    <td><button onclick="operationClicked('x')"> x </button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="reset()"> c </button></td>
+                    <td><button onclick="numberClicked('0')"> 0 </button></td>
+                    <td><button onclick="numberClicked('.')"> . </button></td>
+                    <td><button onclick="operationClicked('/')"> / </button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
